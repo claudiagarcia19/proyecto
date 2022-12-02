@@ -51,7 +51,7 @@ nav {
 }
 .carousel-item {
 	img {
-		width: 190vh;
+	    width: 190vw;
 		height: 60vh;
 	}
 }
@@ -69,11 +69,12 @@ footer {
 		font-size: medium;
 	}
 }
-@media (max-width: 700px) {
+@media (max-width: 480px) {
 	header {
 		flex-direction: column;
 	}
 	nav {
 		padding: 10px 0px;
 	}
+	
 }

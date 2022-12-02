@@ -59,33 +59,14 @@ nav {
 	p {
 		color: $color_1;
 	}
-	.imagen0{
-		width: 75vh;
-		height: 40vh;
-	}	
-	.imagen1{
-		width: 75vh;
-		height: 40vh;
-	}	
-	.imagen2{
-		width: 75vh;
-		height: 60vh;
-		padding-top: 10px;
-	}	
-	.imagen3{
-		width: 75vh;
-		height: 40vh;
+.container{ 
+	border: 3px solid rgb(227, 220, 221);
+	font-style: oblique;
+	p {
+		color: $color_1;
 	}
-
-	.imagen4{
-		width: 75vh;
-		height: 30vh;
-	}
-	.imagen5{
-		width: 75vh;
-		height: 30vh ;
-		padding-left: 10px;
-	}
+}
+	
 }
 
 .grid-container {
@@ -98,7 +79,7 @@ nav {
 }
 .grid-container2 {
 	display: grid;
-	grid-template-columns: 5fr 5fr 5fr;
+	grid-template-columns: 5fr 5fr;
 }
 .grid-container3 {
 	display: grid;
