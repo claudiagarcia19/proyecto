@@ -34,7 +34,6 @@ header {
 nav a {
   font-weight: 600;
   padding: 10px;
-  font-size: 22px;
 }
 
 body {
@@ -290,7 +289,7 @@ nav a {
 
 .grid-container2 {
   display: grid;
-  grid-template-columns: 5fr 5fr;
+  grid-template-columns: 5fr 5fr 5fr;
 }
 
 .grid-container3 {
@@ -321,6 +320,9 @@ footer > p {
   }
   nav {
     padding: 10px 0px;
+  }
+  .imgDesaparece {
+    display: none;
   }
 }
 * {

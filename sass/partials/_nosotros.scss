@@ -81,7 +81,7 @@ nav {
 }
 .grid-container2 {
 	display: grid;
-	grid-template-columns: 5fr 5fr;
+	grid-template-columns: 5fr 5fr 5fr;
 }
 .grid-container3 {
 	display: grid;
@@ -111,5 +111,7 @@ footer {
 	nav {
 		padding: 10px 0px;
 	}
-	
+	.imgDesaparece{
+		display: none;
+	}
 }
